@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-16T02:12:17Z",
+  "description": "RSS Fundacional Progressive Web App",
+  "updates": [
+    {
+      "version": "1.0.0",
+      "date": "2025-12-16T02:12:17Z",
+      "changes": [
+        "Initial PWA setup with foundational structure",
+        "Service Worker for offline support",
+        "Progressive Web App manifest configuration",
+        "Responsive HTML entry point"
+      ],
+      "compatibility": {
+        "minimumBrowser": "Chrome 51+, Firefox 44+, Safari 11.1+, Edge 15+",
+        "platforms": ["web", "android", "ios", "windows", "macos", "linux"]
+      }
+    }
+  ],
+  "checkInterval": 3600000,
+  "cacheStrategy": "cache-first",
+  "features": {
+    "offline": true,
+    "backgroundSync": true,
+    "pushNotifications": false,
+    "fileHandling": false
+  },
+  "requiredPermissions": [],
+  "optionalPermissions": [
+    "notifications"
+  ]
+}
